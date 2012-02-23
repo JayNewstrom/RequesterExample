@@ -13,8 +13,9 @@
 		7F75579414F5EB550036A9D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F75579214F5EB550036A9D3 /* InfoPlist.strings */; };
 		7F75579614F5EB550036A9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75579514F5EB550036A9D3 /* main.m */; };
 		7F75579A14F5EB560036A9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75579914F5EB560036A9D3 /* AppDelegate.m */; };
-		7F75579D14F5EB560036A9D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F75579B14F5EB560036A9D3 /* MainStoryboard.storyboard */; };
+		7F75579D14F5EB560036A9D3 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F75579B14F5EB560036A9D3 /* iPhone.storyboard */; };
 		7F7557A014F5EB560036A9D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F75579F14F5EB560036A9D3 /* ViewController.m */; };
+		7F7557A814F5EB750036A9D3 /* Requester.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F7557A714F5EB750036A9D3 /* Requester.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +23,17 @@
 		7F75578914F5EB550036A9D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7F75578B14F5EB550036A9D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F75578D14F5EB550036A9D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		7F75579114F5EB550036A9D3 /* RequesterExample-Info.plist */ = {isa = PBXFileReference; path = "RequesterExample-Info.plist"; sourceTree = "<group>"; };
+		7F75579114F5EB550036A9D3 /* RequesterExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RequesterExample-Info.plist"; sourceTree = "<group>"; };
 		7F75579314F5EB550036A9D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7F75579514F5EB550036A9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7F75579714F5EB550036A9D3 /* RequesterExample-Prefix.pch */ = {isa = PBXFileReference; path = "RequesterExample-Prefix.pch"; sourceTree = "<group>"; };
-		7F75579814F5EB560036A9D3 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F75579714F5EB550036A9D3 /* RequesterExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RequesterExample-Prefix.pch"; sourceTree = "<group>"; };
+		7F75579814F5EB560036A9D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F75579914F5EB560036A9D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7F75579C14F5EB560036A9D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7F75579E14F5EB560036A9D3 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		7F75579C14F5EB560036A9D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/iPhone.storyboard; sourceTree = "<group>"; };
+		7F75579E14F5EB560036A9D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7F75579F14F5EB560036A9D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F7557A614F5EB750036A9D3 /* Requester.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Requester.h; sourceTree = "<group>"; };
+		7F7557A714F5EB750036A9D3 /* Requester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Requester.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +80,11 @@
 		7F75578F14F5EB550036A9D3 /* RequesterExample */ = {
 			isa = PBXGroup;
 			children = (
+				7F7557A614F5EB750036A9D3 /* Requester.h */,
+				7F7557A714F5EB750036A9D3 /* Requester.m */,
 				7F75579814F5EB560036A9D3 /* AppDelegate.h */,
 				7F75579914F5EB560036A9D3 /* AppDelegate.m */,
-				7F75579B14F5EB560036A9D3 /* MainStoryboard.storyboard */,
+				7F75579B14F5EB560036A9D3 /* iPhone.storyboard */,
 				7F75579E14F5EB560036A9D3 /* ViewController.h */,
 				7F75579F14F5EB560036A9D3 /* ViewController.m */,
 				7F75579014F5EB550036A9D3 /* Supporting Files */,
@@ -150,7 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7F75579414F5EB550036A9D3 /* InfoPlist.strings in Resources */,
-				7F75579D14F5EB560036A9D3 /* MainStoryboard.storyboard in Resources */,
+				7F75579D14F5EB560036A9D3 /* iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +169,7 @@
 				7F75579614F5EB550036A9D3 /* main.m in Sources */,
 				7F75579A14F5EB560036A9D3 /* AppDelegate.m in Sources */,
 				7F7557A014F5EB560036A9D3 /* ViewController.m in Sources */,
+				7F7557A814F5EB750036A9D3 /* Requester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,12 +184,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		7F75579B14F5EB560036A9D3 /* MainStoryboard.storyboard */ = {
+		7F75579B14F5EB560036A9D3 /* iPhone.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7F75579C14F5EB560036A9D3 /* en */,
 			);
-			name = MainStoryboard.storyboard;
+			name = iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
